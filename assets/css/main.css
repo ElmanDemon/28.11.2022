@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../imgs/background.svg");
+  background-size: cover;
+  height: 600px;
+}
+header .nav_container {
+  width: 100%;
+  top: 0;
+}
+header .nav_container nav {
+  width: 1322px;
+  height: 104px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav_container nav a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background-color: #fafafa;
+}
+main .container_every {
+  max-width: 1200px;
+  margin: auto;
+}
+main .container_every h2 {
+  text-align: center;
+}
+main .container_every p {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+main .container_every .card {
+  display: flex;
+  justify-content: space-between;
+}
+main .practice {
+  text-align: center;
+}
+main .section2 {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+main .item-box {
+  box-shadow: 0 4px 10px 0;
+  margin-right: 39.5px;
+}
+main .card2 {
+  display: flex;
+  justify-content: center;
+}
+main .card2 p {
+  margin: auto;
+  text-align: center;
+  width: 200px;
+}
+main .cardWho h2 {
+  text-align: center;
+}
+main .cardWho p {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+main .container_who {
+  display: flex;
+  justify-content: center;
+}
+main .container_who #whoCard {
+  box-shadow: 0 4px 10px 0;
+  margin-right: 39.5px;
+}/*# sourceMappingURL=main.css.map */

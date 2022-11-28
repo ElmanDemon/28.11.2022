@@ -1,0 +1,63 @@
+main {
+    background-color: #fafafa;
+
+    .container_every {
+        max-width: 1200px;
+        margin: auto;
+        h2 {
+            text-align: center;
+        }
+        p {
+            width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .practice {
+        text-align: center;
+    }
+    .section2 {
+        width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    .item-box {
+        box-shadow: 0 4px 10px 0;
+
+        margin-right: 39.5px;
+    }
+    .card2 {
+        display: flex;
+        justify-content: center;
+
+        p {
+            margin: auto;
+            text-align: center;
+            width: 200px;
+        }
+    }
+    .cardWho {
+        h2 {
+            text-align: center;
+        }
+        p {
+            width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+    }
+    .container_who {
+        display: flex;
+        justify-content: center;
+        #whoCard {
+            box-shadow: 0 4px 10px 0;
+            margin-right: 39.5px;
+        }
+    }
+    
+}
